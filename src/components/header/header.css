@@ -1,0 +1,39 @@
+.navBar {
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: flex;
+ 
+    align-items: center;
+  
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    cursor: pointer;
+    
+  }
+  
+
+.links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    /* text-align: center; */
+    font-size: large;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+.shopping-bag{
+    margin-right: 20%;  
+}
+.shopping-bag:hover{
+  
+    color: red;
+}
+.cart-icon:hover{
+    color:red
+}
+  
+ 
